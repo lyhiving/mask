@@ -1,0 +1,22 @@
+{
+  "name": "lyhiving/mask",
+  "description": "PHP mask",
+  "keywords": ["mask","Easy PHP mask"],
+  "homepage": "https://github.com/lyhiving/mask",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "lyhiving",
+      "email": "lyhiving@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "ext-gd": "*"
+  },
+  "autoload": {
+    "psr-4": { "lyhiving\\mask\\": "src/" }
+  },
+  "minimum-stability": "dev"
+}
